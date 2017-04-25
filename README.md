@@ -1,4 +1,7 @@
-# api documentation for  [machina (v2.0.0)](http://machina-js.org/)  [![npm package](https://img.shields.io/npm/v/npmdoc-machina.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-machina) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-machina.svg)](https://travis-ci.org/npmdoc/node-npmdoc-machina)
+# npmdoc-machina
+
+#### basic api documentation for  [machina (v2.0.0)](http://machina-js.org/)  [![npm package](https://img.shields.io/npm/v/npmdoc-machina.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-machina) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-machina.svg)](https://travis-ci.org/npmdoc/node-npmdoc-machina)
+
 #### A library for creating powerful and flexible finite state machines. Loosely inspired by Erlang/OTP's gen_fsm behavior.
 
 [![NPM](https://nodei.co/npm/machina.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/machina)
@@ -183,7 +186,8 @@
         "test": "./node_modules/mocha/bin/mocha -r spec/helpers/node-setup.js spec",
         "watch": "gulp watch"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
